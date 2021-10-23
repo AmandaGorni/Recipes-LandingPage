@@ -94,7 +94,7 @@ export const BoxAbout =styled.div`
         flex-direction: column;
         justify-content:space-around ;
         width: 30%;
-        height: 40vh;
+        height: 24rem;
         margin:auto;
         text-align: center;
        p{
@@ -110,7 +110,7 @@ export const BoxSubscribe = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 5rem 0 5rem 0;
-  height: 70vh;
+  height: 30rem;
   font-size: 1.3rem;
 
   input{
@@ -134,6 +134,8 @@ cursor: pointer;
 border: solid 3px #000;
 letter-spacing: 3px;
 &:hover {
-border: solid 3px #000;
+background:#000;
+color:#fff;
+transform: scale(1.1);
 }
 `

@@ -17,7 +17,7 @@ export const MenuBox = styled.div`
     
 `
 export const Menu = styled.div`
-    width: 400px;   
+    width: 420px;   
     display: flex;
     justify-content: space-evenly;
 `
