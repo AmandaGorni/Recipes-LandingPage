@@ -4,10 +4,8 @@ export const Container = styled.section`
   background: #f2f4f1;
 `;
 
-export const Wrapper = styled.div`
-  /* margin: 0 auto; */
+export const Wrapper = styled.div` 
   padding: 10rem 0 0;
-  /* width: 90%; */
 `;
 
 export const Title = styled.h2`
@@ -23,9 +21,9 @@ export const Title = styled.h2`
     position: absolute;
     left: 31%;
     bottom: -1.5rem;
+    background: #373737;
     width: 5rem;
     height: 5px;
-    background: #373737;
   }
 `;
 
